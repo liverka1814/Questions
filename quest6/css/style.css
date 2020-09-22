@@ -1,0 +1,28 @@
+.wrapper{
+    width: 945px;
+    margin: 20px auto;
+    background: grey;
+    padding: 20px 10px 20px 20px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+.item{
+    background: #fff;
+    width: 300px;
+    height: 310px;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    margin: 0 15px 15px 0;
+}
+.item > div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.front{
+    transition: all .5s;
+}
+.front:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7);
+}
